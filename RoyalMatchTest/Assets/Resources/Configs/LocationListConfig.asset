@@ -10,18 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be00c291ba3d643799d1aeb37f9c622d, type: 3}
-  m_Name: LocationList
+  m_Name: LocationListConfig
   m_EditorClassIdentifier: 
   locations:
-  - locationName: Location1
-    imgFaceLocationName: face_location_01
-    imgLocationName: location_01
-  - locationName: Location2
-    imgFaceLocationName: face_location_02
-    imgLocationName: location_02
-  - locationName: Location3
-    imgFaceLocationName: face_location_01
-    imgLocationName: location_01
-  - locationName: Location4
-    imgFaceLocationName: face_location_02
-    imgLocationName: location_02
+  - locationId: 1
+    locationName: Location1
+    imgUILocationName: icon_location_01
+    isFake: 0
+    locationPrefab: {fileID: 4878768215998750155, guid: c7a07330635f7448e933a1c8dfa07a3a, type: 3}
+  - locationId: 2
+    locationName: Location2
+    imgUILocationName: icon_location_02
+    isFake: 0
+    locationPrefab: {fileID: 4878768215998750155, guid: 1b3c1baad9be84487ac061a8b76f2011, type: 3}
+  - locationId: 4
+    locationName: Location3
+    imgUILocationName: icon_location_01
+    isFake: 0
+    locationPrefab: {fileID: 4878768215998750155, guid: d4c2b3d7826b44b7198ad77a982c0f74, type: 3}
+  - locationId: 7
+    locationName: Location4
+    imgUILocationName: icon_location_02
+    isFake: 1
+    locationPrefab: {fileID: 0}

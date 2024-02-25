@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 858d741eaa5448ce9307693679e789cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiFaceLocationFactory: {fileID: 0}
+  _uiLocationFactory: {fileID: 67298857}
 --- !u!4 &67298859
 Transform:
   m_ObjectHideFlags: 0
@@ -194,6 +194,7 @@ GameObject:
   - component: {fileID: 278170163}
   - component: {fileID: 278170162}
   - component: {fileID: 278170165}
+  - component: {fileID: 278170166}
   m_Layer: 0
   m_Name: Services
   m_TagString: Untagged
@@ -252,6 +253,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47f7f0d9ca7b4ebab12c422af825aaac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &278170166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278170160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f78559e6a10f4aa0b77f43a77b0eeb47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &519420028
@@ -315,7 +328,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

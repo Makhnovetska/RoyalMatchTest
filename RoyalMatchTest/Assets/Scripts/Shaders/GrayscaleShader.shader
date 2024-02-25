@@ -3,6 +3,12 @@ Shader "Unlit/GrayscaleShader"
     Properties
 	{
 		_MainTex ("Texture", 2D) = "white" {}
+		_Stencil ("Stencil", Range(0, 1)) = 0
+		_StencilComp ("Stencil Comparison", Int) = 8
+		_StencilOp ("Stencil Operation", Int) = 0
+		_StencilReadMask ("Stencil Read Mask", Int) = 255
+		_StencilWriteMask ("Stencil Write Mask", Int) = 255
+		_ColorMask ("Color Mask", Int) = 15
 	}
 	Subshader
 	{

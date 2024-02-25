@@ -1,10 +1,11 @@
+using Factory;
 using UnityEngine;
 
 public class FactoriesService : MonoBehaviour
 {
-    [SerializeField] private UIFaceLocationFactory uiFaceLocationFactory;
+    [SerializeField] private UILocationFactory _uiLocationFactory;
     
-    public UIFaceLocationFactory UIFaceLocationFactory => uiFaceLocationFactory;
+    public UILocationFactory uiLocationFactory => _uiLocationFactory;
     
     public static FactoriesService Instance { get; private set; }
 

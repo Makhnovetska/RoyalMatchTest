@@ -1,3 +1,4 @@
+using Configs;
 using UnityEngine;
 
 public class ConfigsService : MonoBehaviour

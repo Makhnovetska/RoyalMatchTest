@@ -364,13 +364,16 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.0f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.0f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Configs/LocationListConfig.cs"
+"Assets/Scripts/Controllers/LocationController.cs"
+"Assets/Scripts/Controllers/LocationItemController.cs"
 "Assets/Scripts/Managers/GameManager.cs"
 "Assets/Scripts/Screens/LocationScreen.cs"
 "Assets/Scripts/Screens/SelectLocationScreen.cs"
 "Assets/Scripts/Services/ConfigsService.cs"
 "Assets/Scripts/Services/FactoriesService.cs"
 "Assets/Scripts/Services/Factory/FactoryBase.cs"
-"Assets/Scripts/Services/Factory/UIFaceLocationFactory.cs"
+"Assets/Scripts/Services/Factory/UILocationFactory.cs"
+"Assets/Scripts/Services/LocationService.cs"
 "Assets/Scripts/Services/PlayerPrefsService.cs"
 "Assets/Scripts/Tools/ScreensManagerTool/Appearance/Appearances/FadingAppearance.cs"
 "Assets/Scripts/Tools/ScreensManagerTool/Appearance/ScreenAppearance.cs"
@@ -379,7 +382,7 @@
 "Assets/Scripts/Tools/ScreensManagerTool/ScreensManager.cs"
 "Assets/Scripts/Tools/ScreensManagerTool/ScreenType.cs"
 "Assets/Scripts/View/Components/UIProgressBar.cs"
-"Assets/Scripts/View/UIFaceLocation.cs"
+"Assets/Scripts/View/UILocation.cs"
 -langversion:9.0
 
 /deterministic
